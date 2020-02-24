@@ -1,14 +1,15 @@
 body{
-    border: 22px solid #bdc3c7;
-    width: 70%;
-    margin: 30px auto;
+    border: 20px solid #bdc3c7;
+    max-width: 700px;  /*At a max make it 700 px*/
+    width: 80%; /*If screen width is less than 700px then make it 80% of the sceen*/
+    margin: 20px auto;
     font-family: 'Source Sans Pro';
 }
 
 .date{
     text-transform: uppercase;
     color: #3498db;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
 }
 
 .leftborder{
@@ -18,9 +19,13 @@ body{
 
 h2{
     color: #2c3e50;
-    font-weight: 800;
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 2.0rem;
+    /* letter-spacing: 1px; */
+}
+
+hr{
+    color: #bdc3c7;
 }
 
 .innercontent{
