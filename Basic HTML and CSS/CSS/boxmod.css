@@ -1,0 +1,11 @@
+p{
+    border: 3px solid violet;
+    height: 30px;
+    text-align: center;
+    width: 50%;  /*50 percent of the parent element, % is also responsive*/
+    padding: 10px;
+    /* margin: 20px; */
+    /* margin-top: 50px; */
+    /* margin: 20px 30px 40px 50px;  All four sides: top right bottom left */
+    margin: 0 auto 10 auto; 
+}
