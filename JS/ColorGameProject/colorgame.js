@@ -24,7 +24,7 @@ resetButton.addEventListener("click", function () {
         squares[i].style.backgroundColor = colors[i];
     }
     //change background of h1
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue";
 });
 
 easyBtn.addEventListener("click", function () {
