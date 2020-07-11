@@ -12,6 +12,7 @@ var hardBtn = document.querySelector("#hard");
 colorDisplay.textContent = pickedColor;
 
 resetButton.addEventListener("click", function () {
+    this.textContent = "New Colors";
     //generate all new colors
     colors = getRandomColorArray(numSquares);
     //pick a new random color from array
@@ -25,6 +26,7 @@ resetButton.addEventListener("click", function () {
     }
     //change background of h1
     h1.style.backgroundColor = "steelblue";
+    messageDisplay.textContent = "";
 });
 
 easyBtn.addEventListener("click", function () {
